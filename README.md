@@ -1,5 +1,5 @@
 <a href="https://github.com/WolfByte-CEFET-RJ/AVIR">
-  <img width="100%" height="auto" src="https://github.com/dlserodio/testreadm/blob/main/Hello%20GitHub%2C%20I%E2%80%99m%20Daniel%20Lanzillotta%20(1).gif" height="175px"/>
+  <img width="100%" height="auto" src="https://github.com/WolfByte-CEFET-RJ/AVIR/blob/master/Page%20Assets/Page%20%20Banner.gif" height="175px"/>
 </a>
 
 
@@ -10,7 +10,7 @@ O Projeto AVIR é uma iniciativa de pesquisa e desenvolvimento em Processamento 
 
 
 
-<img align="right" alt="img" src="https://github.com/dlserodio/testreadm/blob/main/Design%20sem%20nome.gif" width="40%" height = "auto" />
+<img align="right" alt="img" src="https://github.com/WolfByte-CEFET-RJ/AVIR/blob/master/Page%20Assets/Exemplo%20de%20Uso.gif" width="40%" height = "auto" />
 
 
 #### 🤖 Do que a AVIR é capaz? 🤖: 
