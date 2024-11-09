@@ -9,17 +9,38 @@ O Projeto AVIR é uma iniciativa de pesquisa e desenvolvimento em Processamento 
 
 
 
-
 <img align="right" alt="img" src="https://github.com/WolfByte-CEFET-RJ/AVIR/blob/master/Page%20Assets/Exemplo%20de%20Uso.gif" width="40%" height = "auto" />
 
 
 #### 🤖 Do que a AVIR é capaz? 🤖: 
-- Gera respostas de forma humanizada 💁‍♀️
-- Tira dúvidas a respeito de tópicos referentes ao Ramo Estudantil ❓
-- Aumenta a eficência da nossa gestão devolvendo documentos com rapidez 📂
+- Gerar respostas de forma humanizada 💁‍♀️
+- Tirar dúvidas a respeito de tópicos referentes ao Ramo Estudantil ❓
+- Devolução de documentos com rapidez 📂
+- Uma interface amigável entre o usuário e os dados do Ramo 📱
 
 #### Tecnologias Aplicadas
 - Grandes Modelos Linguísticos 🔠
 - Redes Neurais Artificiais 🧠
 - Geração Aumentada Por Recuperação (RAG) 🗃️
 - Engenharia de Prompt 🧑‍💻
+- Cloud Computing ☁️
+
+
+
+  <h2 align = "center"> 📃🎞️ Documentações 🎞️📃</h2>
+<table>
+  <tr>
+    <td align="center" width="500">
+      <a href="https://github.com/WolfByte-CEFET-RJ/AVIR" >
+        <img src="https://github.com/WolfByte-CEFET-RJ/AVIR/blob/master/Page%20Assets/Bot%C3%A3o%20para%20v%C3%ADdeo%20(usu%C3%A1rios).gif" height="250" alt="img"  />
+      </a>
+      <br>
+    </td>
+    <td align="center" width="500>
+      <a href="https://github.com/WolfByte-CEFET-RJ/AVIR" >
+        <img src= "https://github.com/WolfByte-CEFET-RJ/AVIR/blob/master/Page%20Assets/Bot%C3%A3o%20para%20v%C3%ADdeo%20(desenvolvedores).gif" height="250" alt="img"  />
+      </a>
+      <br>
+    </td>
+<table>
+
