@@ -1,0 +1,70 @@
+Guia para Confeccionar e Estruturar o JSON de Intents
+
+Este documento oferece diretrizes para criar e organizar intents no arquivo JSON, facilitando a replicação do modelo. 
+
+
+
+Estrutura Geral do JSON
+
+O JSON deve conter uma lista de intents organizadas dentro de um array principal chamado "intents". Cada intent representa um conjunto de perguntas ou comandos que o usuário pode fazer, além das respostas que a IA deve fornecer.
+
+Exemplo de Estrutura Geral: (Para melhor visualização verifique o arquivo de exemplos, nessa mesma pasta)
+
+
+{
+    "intents": [
+        {
+            "tag": "Nome da Intent",
+            "patterns": [
+                "Exemplo de frase do usuário 1",
+                "Exemplo de frase do usuário 2"
+            ],
+            "responses": [
+                "Exemplo de resposta 1",
+                "Exemplo de resposta 2"
+            ]
+        }
+    ]
+}
+
+
+
+Campos Necessários para Cada Intent
+
+1. tag:
+   - Define o nome da intent de forma descritiva e única.
+   - Este nome é utilizado para identificar o propósito da intent (por exemplo: `"Consulta de Versão de Software"`, `"Identidade da Assistente"`).
+
+2. patterns:
+   - Lista de frases e perguntas que o usuário pode fazer para acionar essa intent.
+   - Inclua diversas variações, para capturar diferentes maneiras de fazer a mesma pergunta.
+   - Tente ser o mais abrangente possível para cobrir várias formas de expressão.
+
+    Exemplo:
+
+   "patterns": [
+       "Qual é a versão mais recente do software?",
+       "Quero saber a versão atual do programa.",
+       "Qual edição está em uso no momento?"
+   ]
+
+3. responses:
+   - Lista de respostas que a IA pode fornecer quando a intent for acionada.
+   - Inclua respostas variadas, mantendo o conteúdo semelhante, para tornar as interações mais naturais.
+   
+   Exemplo:
+  
+   "responses": [
+       "A versão atual do software é 1.1.",
+       "No momento, estamos usando a versão 1.1.",
+       "Estamos na versão 1.1 do programa atualmente."
+   ]
+
+
+Boas Práticas
+
+- Variedade nos Patterns: Escreva várias frases nos patterns, abordando possíveis sinônimos e expressões comuns. Quanto mais abrangente, melhor a IA conseguirá captar as intenções do usuário.
+
+- Consistência nas Responses: Embora seja bom variar as respostas, garanta que todas transmitam a mesma informação de maneira clara e objetiva.
+
+- Clareza nos Nomes das Tags: Escolha nomes de tags que facilitem a identificação rápida do propósito de cada intent.

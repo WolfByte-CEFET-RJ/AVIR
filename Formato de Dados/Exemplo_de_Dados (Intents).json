@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+            "tag": "Use este campo tag como um título. Olhe os exemplos abaixo!",
+            "patterns": [
+                "Em patterns você deve colocar possíveis formatos de perguntas?"
+            ],
+            "responses": [
+                "Em responses você deve colocar possíveis respostas."
+            ]
+        },
+        {
+            "tag": "Horário de Funcionamento",
+            "patterns": [
+                "Qual é o horário de funcionamento?",
+                "Até que horas está aberto?",
+                "Em que horário posso visitar?",
+                "Vocês estão abertos agora?",
+                "Quando posso visitar o local?"
+            ],
+            "responses": [
+                "Estamos abertos de segunda a sexta, das 9h às 18h.",
+                "Nosso horário de funcionamento é das 9h às 18h durante a semana.",
+                "Pode nos visitar das 9h às 18h, de segunda a sexta-feira.",
+                "Estamos disponíveis de segunda a sexta-feira, das 9h às 18h."
+            ]
+        }
+    ]
+}
